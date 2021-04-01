@@ -1,0 +1,9 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="SIGNUP_GOOGLE_AUTH <= 0.5\ngini = 0.219\nsamples = 5316\nvalue = [7351, 1049]", fillcolor="#e99355"] ;
+1 [label="gini = 0.21\nsamples = 4689\nvalue = [6506, 883]", fillcolor="#e99254"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="gini = 0.274\nsamples = 627\nvalue = [845, 166]", fillcolor="#ea9a60"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
