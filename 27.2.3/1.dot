@@ -1,9 +1,0 @@
-digraph Tree {
-node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
-edge [fontname=helvetica] ;
-0 [label="enabled_for_marketing_drip <= 0.5\ngini = 0.22\nsamples = 5312\nvalue = [7343, 1057]", fillcolor="#e99356"] ;
-1 [label="gini = 0.223\nsamples = 4522\nvalue = [6237, 913]", fillcolor="#e99356"] ;
-0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
-2 [label="gini = 0.204\nsamples = 790\nvalue = [1106, 144]", fillcolor="#e89153"] ;
-0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
-}

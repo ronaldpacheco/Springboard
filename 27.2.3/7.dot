@@ -1,9 +1,0 @@
-digraph Tree {
-node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
-edge [fontname=helvetica] ;
-0 [label="PERSONAL_PROJECTS <= 0.5\ngini = 0.216\nsamples = 5326\nvalue = [7364, 1036]", fillcolor="#e99355"] ;
-1 [label="gini = 0.232\nsamples = 4383\nvalue = [5999, 930]", fillcolor="#e99558"] ;
-0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
-2 [label="gini = 0.134\nsamples = 943\nvalue = [1365, 106]", fillcolor="#e78b48"] ;
-0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
-}
